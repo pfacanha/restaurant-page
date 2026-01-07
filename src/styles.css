@@ -1,5 +1,12 @@
+@font-face {
+  font-family: mexicanFont;
+  src: url(./fonts/mexican\ fiesta.ttf);
+}
+
 html {
   box-sizing: border-box;
+  font-size: 35px;
+  font-family: mexicanFont;
 }
 
 *,
@@ -31,19 +38,19 @@ header {
 
 .img01 {
   position: absolute;
-  left: 520px;
-  top: 20px;
+  left: 420px;
+  top: 40px;
 }
 
 .img02 {
   position: absolute;
-  right: 540px;
-  top: 20px;
+  right: 450px;
+  top: 40px;
 }
 
 .img01 img,
 .img02 img {
-  height: 100px;
+  height: 150px;
   transform: rotate(-30deg);
 }
 
