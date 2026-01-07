@@ -17,15 +17,22 @@ body {
 
 body {
   min-height: 100vh;
-  background-image: url("../src/background.jpeg");
+  background-image: url("../src/images/background.jpeg");
   background-size: cover;
   background-position: center;
 }
 
 header {
+  position: relative;
   background-color: black;
   opacity: 0.5;
   padding: 20px;
+}
+
+.header-img {
+  position: absolute;
+  left: 50px;
+  top: 100px;
 }
 
 h1 {
@@ -53,4 +60,8 @@ li {
 li > a {
   text-decoration: none;
   color: white;
+}
+
+.header-img img {
+  height: 200px;
 }
