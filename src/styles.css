@@ -25,14 +25,26 @@ body {
 header {
   position: relative;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.8;
   padding: 20px;
 }
 
-.header-img {
+.img01 {
   position: absolute;
-  left: 50px;
-  top: 100px;
+  left: 520px;
+  top: 20px;
+}
+
+.img02 {
+  position: absolute;
+  right: 540px;
+  top: 20px;
+}
+
+.img01 img,
+.img02 img {
+  height: 100px;
+  transform: rotate(-30deg);
 }
 
 h1 {
@@ -60,8 +72,4 @@ li {
 li > a {
   text-decoration: none;
   color: white;
-}
-
-.header-img img {
-  height: 200px;
 }
