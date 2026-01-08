@@ -57,6 +57,8 @@ header {
 h1 {
   text-align: center;
   color: white;
+  padding: 0;
+  margin: 10px 0;
 }
 
 nav {
@@ -79,4 +81,7 @@ li {
 li > a {
   text-decoration: none;
   color: white;
+}
+
+a:hover {
 }
