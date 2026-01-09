@@ -65,6 +65,8 @@ li {
   list-style-type: none;
   transition: all 0.4s;
   padding: 5px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid white;
 }
 
 li > a {
