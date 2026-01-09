@@ -1,3 +1,4 @@
 import "./styles.css";
+import "./home.js";
 
-console.log("Hello World!");
+console.log("Main page was loaded!");
