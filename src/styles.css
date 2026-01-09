@@ -9,7 +9,7 @@
 @font-face {
   font-family: "Mexican Tequila";
   src: url(./fonts/MexicanTequila.ttf) format("truetype");
-  font-weight: normal;
+  font-weight: 800px;
 }
 
 html {
@@ -42,12 +42,12 @@ body {
 
 header {
   position: relative;
-  background-color: black;
-  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
 }
 
 h1 {
+  font-family: "Mexican Fiesta";
   text-align: center;
   color: white;
   padding: 0;
@@ -83,7 +83,17 @@ li:hover {
 }
 
 article {
+  font-family: "Mexican Tequila";
   background-color: gray;
+
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  margin: 10px;
+}
+
+article p {
+  color: white;
 }
 
 /* --- Class Selectors --- */
@@ -108,4 +118,8 @@ article {
 
 /* --- ID Selectors --- */
 
-/* #content  */
+#content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
