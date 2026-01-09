@@ -1,3 +1,5 @@
+/* --- Fonts --- */
+
 @font-face {
   font-family: mexicanFont;
   src: url(./fonts/mexican\ fiesta.ttf);
@@ -14,6 +16,8 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+/* --- Element Selectors */
 
 html,
 body {
@@ -34,24 +38,6 @@ header {
   background-color: black;
   opacity: 0.8;
   padding: 20px;
-}
-
-.img01 {
-  position: absolute;
-  left: 420px;
-  top: 40px;
-}
-
-.img02 {
-  position: absolute;
-  right: 450px;
-  top: 40px;
-}
-
-.img01 img,
-.img02 img {
-  height: 150px;
-  transform: rotate(-30deg);
 }
 
 h1 {
@@ -88,3 +74,31 @@ li > a {
 li:hover {
   transform: scale(1.3);
 }
+
+article {
+  background-color: gray;
+}
+
+/* --- Class Selectors --- */
+
+.img01 {
+  position: absolute;
+  left: 420px;
+  top: 40px;
+}
+
+.img02 {
+  position: absolute;
+  right: 450px;
+  top: 40px;
+}
+
+.img01 img,
+.img02 img {
+  height: 150px;
+  transform: rotate(-30deg);
+}
+
+/* --- ID Selectors --- */
+
+/* #content  */
