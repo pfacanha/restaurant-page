@@ -1,14 +1,21 @@
 /* --- Fonts --- */
 
 @font-face {
-  font-family: mexicanFont;
-  src: url(./fonts/mexican\ fiesta.ttf);
+  font-family: "Mexican Fiesta";
+  src: url(./fonts/mexican\ fiesta.ttf) format("truetype");
+  font-weight: 400px;
+}
+
+@font-face {
+  font-family: "Mexican Tequila";
+  src: url(./fonts/MexicanTequila.ttf) format("truetype");
+  font-weight: normal;
 }
 
 html {
   box-sizing: border-box;
   font-size: 35px;
-  font-family: mexicanFont;
+  font-family: "Mexican Fiesta";
 }
 
 *,
