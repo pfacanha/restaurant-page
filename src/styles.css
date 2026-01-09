@@ -6,6 +6,12 @@
   font-weight: 800;
 }
 
+@font-face {
+  font-family: "Mexican Tequila Italic";
+  src: url(./fonts/MexicanTequila-Italic.ttf) format("truetype");
+  font-weight: 800;
+}
+
 html {
   box-sizing: border-box;
   font-size: 35px;
@@ -43,7 +49,15 @@ header {
 h1 {
   font-family: "Mexican Tequila";
   text-align: center;
-  color: white;
+  color: rgb(80, 228, 179);
+  padding: 0;
+  margin: 10px 0;
+}
+
+h2 {
+  font-family: "Mexican Tequila";
+  text-align: center;
+  color: rgb(80, 228, 179);
   padding: 0;
   margin: 10px 0;
 }
@@ -79,8 +93,6 @@ li:hover {
 }
 
 article {
-  font-family: "Mexican Tequila";
-
   width: 500px;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
@@ -88,6 +100,7 @@ article {
 }
 
 article p {
+  font-family: "Mexican Tequila Italic";
   color: white;
 }
 
