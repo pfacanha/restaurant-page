@@ -11,4 +11,4 @@ const p = document.createElement("p");
 article.append(h2, p);
 content.appendChild(article);
 
-export { article, message };
+export { content, message };
