@@ -1,7 +1,7 @@
 import "./styles.css";
-import "./home.js";
+import { container } from "./home.js";
 
-console.log("Main page was loaded!");
+console.log("index.js was loaded");
 
 const content = document.querySelector("#content");
-content.appendChild(container);
+content.appendChild(container());
