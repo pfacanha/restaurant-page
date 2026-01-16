@@ -1,18 +1,14 @@
 const message = console.log("home.js file was exported");
 
 // fetch elements
-export function container() {
-  const content = document.querySelector("#content");
-
-  // create elements
+function container() {
   const article = document.createElement("article");
   const h2 = document.createElement("h2");
   const p = document.createElement("p");
 
   article.append(h2, p);
-  content.appendChild(article);
 
-  return content;
+  return article;
 }
 
 export { container, message };
