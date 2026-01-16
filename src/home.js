@@ -15,4 +15,4 @@ function container() {
   return article;
 }
 
-export { container, message };
+export { container };
