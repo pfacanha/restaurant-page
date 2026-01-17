@@ -1,16 +1,21 @@
 import "./styles.css";
 import homeScreen from "./home.js";
 import aboutScreen from "./about.js";
+import contactScreen from "./contact.js";
 
 console.log("index.js was loaded");
 
 const content = document.querySelector("#content");
-content.appendChild(homeScreen());
-
-// add event listener if about.js page is clicked
 const aboutBtn = document.querySelector(".about");
-aboutBtn.addEventListener("click", function (e) {
-  e.preventDefault();
+const contactBtn = document.querySelector(".about");
 
-  console.log(`${aboutBtn.textContent} page was clicked!`);
-});
+function handleClick(event, func) {
+  event.preventDefault();
+
+  content.textContent = "";
+  content.appendChild(func());
+}
+
+content.appendChild(homeScreen());
+aboutBtn.addEventListener("click", handleClick(e, aboutScreen));
+contactBtn.addEventListener("click", handleClick(e, contactScreen));
