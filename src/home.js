@@ -1,5 +1,5 @@
 // fetch elements
-function homeScreen() {
+export default function homeScreen() {
   console.log("home.js file was exported");
 
   const article = document.createElement("article");
@@ -14,5 +14,3 @@ function homeScreen() {
 
   return article;
 }
-
-export { homeScreen };
