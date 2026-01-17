@@ -1,5 +1,6 @@
 import "./styles.css";
-import { homeScreen } from "./home.js";
+import homeScreen from "./home.js";
+import aboutScreen from "./about.js";
 
 console.log("index.js was loaded");
 
