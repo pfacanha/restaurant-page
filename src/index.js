@@ -7,11 +7,15 @@ console.log("index.js was loaded");
 
 const content = document.querySelector("#content");
 const aboutBtn = document.querySelector(".about");
-const contactBtn = document.querySelector(".about");
+const contactBtn = document.querySelector(".contact");
 
 content.appendChild(loadHome());
-aboutBtn.addEventListener("click", handleClick(e, loadAbout));
-contactBtn.addEventListener("click", handleClick(e, loadContact));
+aboutBtn.addEventListener("click", (e) => {
+  handleClick(e, loadAbout);
+});
+contactBtn.addEventListener("click", (e) => {
+  handleClick(e, loadContact);
+});
 
 function handleClick(e, func) {
   e.preventDefault();
