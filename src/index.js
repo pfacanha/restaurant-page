@@ -13,8 +13,8 @@ content.appendChild(loadHome());
 aboutBtn.addEventListener("click", handleClick(e, loadAbout));
 contactBtn.addEventListener("click", handleClick(e, loadContact));
 
-function handleClick(event, func) {
-  event.preventDefault();
+function handleClick(e, func) {
+  e.preventDefault();
 
   content.textContent = "";
   content.appendChild(func());
