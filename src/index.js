@@ -11,6 +11,8 @@ const aboutBtn = document.querySelector(".about");
 const contactBtn = document.querySelector(".contact");
 
 content.appendChild(loadHome());
+
+// menu event handlers
 homeBtn.addEventListener("click", (e) => {
   handleClick(e, loadHome);
 });
