@@ -6,10 +6,14 @@ import loadContact from "./contact.js";
 console.log("index.js was loaded");
 
 const content = document.querySelector("#content");
+const homeBtn = document.querySelector(".home");
 const aboutBtn = document.querySelector(".about");
 const contactBtn = document.querySelector(".contact");
 
 content.appendChild(loadHome());
+homeBtn.addEventListener("click", (e) => {
+  handleClick(e, loadHome);
+});
 aboutBtn.addEventListener("click", (e) => {
   handleClick(e, loadAbout);
 });
