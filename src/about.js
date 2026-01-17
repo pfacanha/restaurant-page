@@ -1,4 +1,4 @@
-export default function aboutScreen() {
+export default function loadAbout() {
   console.log("about.js file was exported");
 
   const article = document.createElement("article");

@@ -1,4 +1,4 @@
-export default function contactScreen() {
+export default function loadContact() {
   console.log("about.js file was exported");
 
   const article = document.createElement("article");
