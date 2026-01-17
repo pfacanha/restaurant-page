@@ -1,5 +1,5 @@
 // fetch elements
-function container() {
+function homeScreen() {
   console.log("home.js file was exported");
 
   const article = document.createElement("article");
@@ -15,4 +15,4 @@ function container() {
   return article;
 }
 
-export { container };
+export { homeScreen };
