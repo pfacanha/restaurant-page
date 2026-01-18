@@ -12,7 +12,7 @@ const contactBtn = document.querySelector(".contact");
 
 content.appendChild(loadHome());
 
-// menu event handlers
+// menu bar event handlers
 homeBtn.addEventListener("click", (e) => {
   handleClick(e, loadHome);
 });
