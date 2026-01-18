@@ -1,6 +1,4 @@
 export default function loadContact() {
-  console.log("about.js file was exported");
-
   const article = document.createElement("article");
   const h2 = document.createElement("h2");
   const p = document.createElement("p");

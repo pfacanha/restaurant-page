@@ -14,12 +14,17 @@ content.appendChild(loadHome());
 
 // menu bar event handlers
 homeBtn.addEventListener("click", (e) => {
+  console.log("Home tab was clicked!");
   handleClick(e, loadHome);
 });
 aboutBtn.addEventListener("click", (e) => {
+  console.log("About tab was clicked!");
+
   handleClick(e, loadAbout);
 });
 contactBtn.addEventListener("click", (e) => {
+  console.log("Contact tab was clicked!");
+
   handleClick(e, loadContact);
 });
 
