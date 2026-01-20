@@ -12,7 +12,6 @@ const contactBtn = document.querySelector(".contact");
 
 content.appendChild(loadHome());
 
-// menu bar event handlers
 homeBtn.addEventListener("click", (e) => {
   console.log("Home tab was clicked!");
   handleClick(e, loadHome);
