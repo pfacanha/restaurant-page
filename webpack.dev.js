@@ -15,6 +15,11 @@ module.exports = {
       template: "./src/template.html",
     }),
   ],
+  devServer: {
+    client: {
+      overlay: false,
+    },
+  },
   module: {
     rules: [
       {
