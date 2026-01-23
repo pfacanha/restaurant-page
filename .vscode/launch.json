@@ -6,7 +6,13 @@
       "type": "firefox",
       "request": "launch",
       "url": "http://localhost:8080",
-      "webRoot": "${workspaceFolder}/dist"
+      "webRoot": "${workspaceFolder}/dist",
+      "pathMappings": [
+        {
+          "url": "webpack:///",
+          "path": "${workspaceFolder}"
+        }
+      ]
     }
   ]
 }
