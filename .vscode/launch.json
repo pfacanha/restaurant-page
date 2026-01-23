@@ -2,11 +2,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch index.html",
+      "name": "Attach to Firefox",
       "type": "firefox",
-      "request": "launch",
-      "reAttach": true,
-      "file": "${workspaceFolder}/index.html"
+      "request": "attach",
+      "url": "http://localhost:8080", // or the URL you are debugging
+      "webRoot": "${workspaceFolder}"
     }
   ]
 }
