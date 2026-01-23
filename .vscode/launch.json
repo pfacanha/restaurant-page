@@ -2,17 +2,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Firefox",
+      "name": "Debug Webpack (Firefox)",
       "type": "firefox",
       "request": "launch",
       "url": "http://localhost:8080",
-      "webRoot": "${workspaceFolder}/dist",
-      "pathMappings": [
-        {
-          "url": "webpack:///",
-          "path": "${workspaceFolder}"
-        }
-      ]
+      "webRoot": "${workspaceFolder}"
     }
   ]
 }
