@@ -1,5 +1,3 @@
-debugger;
-
 import "./styles.css";
 import loadHome from "./home.js";
 import loadAbout from "./about.js";
